@@ -12,14 +12,20 @@
   };
 </script>
 
-<button on:click={decrement}> - </button>
+<button class="decrement" on:click={decrement}> - </button>
 
-<button on:click={increment}> + </button>
+<button class="increment" on:click={increment}> + </button>
 
 <p><span class="option">{option}</span> : votos {count}</p>
 
 <style>
   .option {
     font-weight: bold;
+  }
+  .decrement {
+    background-color: rgba(255, 0, 0, 0.137);
+  }
+  .increment {
+    background-color: rgba(0, 128, 0, 0.137);
   }
 </style>

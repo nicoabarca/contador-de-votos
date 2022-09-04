@@ -8,8 +8,8 @@
 </script>
 
 <main>
-  <h1>Resultados Votación</h1>
-  <h2>Cantidad de votos: {total}</h2>
+  <h1>Contador de Votos</h1>
+  <h2>Votos totales: {total}</h2>
   <div class="card">
     <Counter option="Apruebo" bind:count={apruebo} />
   </div>
@@ -23,6 +23,3 @@
     <Counter option="Blanco" bind:count={blanco} />
   </div>
 </main>
-
-<style>
-</style>
