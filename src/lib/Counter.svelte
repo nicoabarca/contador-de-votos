@@ -11,12 +11,11 @@
     }
   };
 </script>
+<p><span class="option">{option}</span> : votos {count}</p>
 
 <button class="decrement" on:click={decrement}> - </button>
 
 <button class="increment" on:click={increment}> + </button>
-
-<p><span class="option">{option}</span> : votos {count}</p>
 
 <style>
   .option {
