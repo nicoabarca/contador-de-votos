@@ -9,8 +9,9 @@ npm run build
 # navigate into the build output directory
 cd dist
 
-git init
-git checkout -b main
+# uncomment these lines if it is first time deploying
+# git init
+# git checkout -b main
 git add -A
 git commit -m 'deploy'
 
